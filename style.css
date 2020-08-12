@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: radial-gradient(#364352,#0B0C10);
+    color: #FFF8DC;
+}
+h1,h2{
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    animation: heading;
+    animation-duration: 3s;
+     animation-fill-mode: forwards;
+}
+@keyframes heading{
+    0%{top:-50px}
+    100%{top: 0px;}
+}
+h2{
+    color: #e2dfd3;
+    padding: 5px 15px;
+}
+
+}
+i:hover{
+    cursor: pointer;
+}
+
+
+.left-header,
+.right-header{
+    display: flex;
+    align-content: space-between;
+}
+.left-box{
+    border: solid #596574 2px;
+
+}
+.right-box{
+    border: solid #596574 2px;
+}
+
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 0 5px 15px;
+}
+
+.collection img{
+    height: 150px;
+    width: 150px;
+    margin: 0 0 5px 0;
+}
+
+#collageArea{
+    height: 470px;
+    background-color: #292f36;
+    position: relative;
+}
+
+/* addclasslist  */
+.collageImage{
+ height: 150px;
+ width: 150px;
+ border: solid #e6e4e0 1px;
+ position: absolute;
+ top: 30%;
+ left: 35%;
+}
